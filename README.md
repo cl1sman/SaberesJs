@@ -1,6 +1,7 @@
 # learn-js-rocketseat
 
 Curso "O guia estelar de JavaScript"
+<https://app.rocketseat.com.br/node/o-guia-estelar-de-java-script>
 
 ___________________________________
 
