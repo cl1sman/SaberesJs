@@ -1,6 +1,6 @@
 # learn-js-rocketseat
 
-Curso "O guia estelar de JavaScript"
+<h2>Curso "O guia estelar de JavaScript"</h2>
 <https://app.rocketseat.com.br/node/o-guia-estelar-de-java-script>
 
 ___________________________________
