@@ -1,0 +1,32 @@
+<script>
+// var é global e, também local.
+/*
+    hoisting. ele pega var, e eleva antes de tudo. Tanto que o codigo
+    abaixo poderia ser feito assim, com var fora do scopo
+
+    desta forma:
+    <script>
+    
+    var x
+
+    {
+        x = 0
+    }
+    
+    </ script>
+*/
+/*
+    Global é tudo que está executando dentro de minha 
+    aplicação, dentro da tag script 
+
+    Já local, é o que somente existe dentro de um scopo
+*/
+console.log('> existe x antes do bloco? ', x)
+
+{
+    var x = 0
+}
+
+console.log('> existe x depois do bloco? ', x)
+
+</script>

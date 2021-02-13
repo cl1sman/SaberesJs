@@ -1,0 +1,40 @@
+<script>
+    // const e let são locais e só funcionam no escopo onde foram criadas
+
+//console.log('> existe y antes do bloco? ', y)
+
+{
+    //console.log('> existe y antes? ', y) não funcionara sem antes declarar y e atribuir um valor a ele. Se isto estiver depois, funcionara
+    let y = 0
+    console.log('> existe y? ', y)
+}
+
+//console.log('> existe y depois do bloc? ', y), não vai funcionar esta linha, porque o let é somente local, e não global.
+
+/*
+    o que aconteceria se eu tirasse a palavra reservada let de dentro do escopo entre chaves?
+    Ele vai procurar o y em algum lugar, assim, o valor de y será o mesmo para ambos os casos abaixo
+
+<script>
+
+let y = 1; esse valor é atualizado dentro do proximo scopo, de 1, para 0
+
+{
+    y = 0
+    console.log('> existe y ', y)
+}
+
+console.log('> existe y depois do bloco? ', y) // este y será zero também
+</ script>
+
+
+// agora, o que foi feito antes, se fosse const, esquece, pois não teria como fazer desta forma, deveria criar outra const
+
+const y = 1 // aqui poderia ser um joão
+
+{
+    const y = 0 // aqui um joão totalmente diferente
+    console.log('> existe y ', y)
+}
+*/
+</script>
