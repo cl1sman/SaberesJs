@@ -1,9 +1,13 @@
-# learn-js-rocketseat
+# Web development
 
+<p align="left">🚀Link dos cursos</p>
 <h6 align="left">
     <a href="https://app.rocketseat.com.br/node/o-guia-estelar-de-java-script">O guia estelar de JavaScript</a>
 </h6>
-<p align="left">🚀Link do curso</p>
+<h6 align="left">
+    <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/">JavaScript Algorithms and Data Structures</a>
+</h6>
+
 
 ___________________________________
 
