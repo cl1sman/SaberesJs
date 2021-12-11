@@ -1,0 +1,2 @@
+const [a, b,,,, c] = [1, 2, 3, 4, 5, 6]; // creio que a quantidade de virgulas é a quantidade de posições (lembrando que há uma virgula a não ser contada, que é a virgula que faz a separação)
+console.log(a, b, c);
